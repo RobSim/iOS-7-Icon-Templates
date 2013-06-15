@@ -97,7 +97,8 @@ header {
     font-weight: 300;
     text-align: center;
     margin: 8px 0 35px 0;
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 10px; }
   .container h3 {
     font-size: 1.8rem;
     opacity: 0.8;
@@ -127,12 +128,16 @@ header {
   margin: 0 auto; }
 
 .social-t {
-  padding-top: 15px;
-  float: left; }
+  padding-top: 10px;
+  float: left;
+  display: block;
+  margin-bottom: 25px; }
 
 .social-f {
-  padding-top: 15px;
-  float: right; }
+  padding-top: 10px;
+  float: right;
+  display: block;
+  margin-bottom: 25px; }
 
 .green {
   background: #72ECE2; }
@@ -147,9 +152,9 @@ header {
   font-size: 1.6rem;
   border: none;
   color: #ffffff;
-  padding: 9px 24px 10px;
   width: 100%;
-  line-height: 22px;
+  padding: 9px 50px 10px;
+  margin: 30px 10px 60px 10px;
   text-decoration: none;
   text-shadow: none;
   -webkit-border-radius: 6px;
@@ -194,3 +199,11 @@ header {
   box-shadow: none;
   opacity: 0.7;
   filter: alpha(opacity=70); }
+
+.dl-button {
+  margin-bottom: 30px;
+  text-align: center; }
+
+.box {
+  width: 100%;
+  background: #72ECE2; }
