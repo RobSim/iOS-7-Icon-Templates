@@ -60,7 +60,8 @@ header {
   background: linear-gradient(to bottom, #78ece2 0%, #5bcdf3 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78ece2', endColorstr='#5bcdf3',GradientType=0 );
-  /* IE6-9 */ }
+  /* IE6-9 */
+  padding-bottom: 20px; }
 
 .bubbles2 {
   background: #5bcdf3;
