@@ -47,35 +47,36 @@ header {
 .bubbles {
   background: #78ece2;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #78ece2 0%, #5bcdf3 100%);
+  background: -moz-linear-gradient(top, #ea6f00 0%, #e0501b 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #78ece2), color-stop(100%, #5bcdf3));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ea6f00), color-stop(100%, #e0501b));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #78ece2 0%, #5bcdf3 100%);
+  background: -webkit-linear-gradient(top, #ea6f00 0%, #e0501b 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #78ece2 0%, #5bcdf3 100%);
+  background: -o-linear-gradient(top, #ea6f00 0%, #e0501b 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #78ece2 0%, #5bcdf3 100%);
+  background: -ms-linear-gradient(top, #ea6f00 0%, #e0501b 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, #78ece2 0%, #5bcdf3 100%);
+  background: linear-gradient(to bottom, #ea6f00 0%, #e0501b 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78ece2', endColorstr='#5bcdf3',GradientType=0 );
-  /* IE6-9 */ }
+  /* IE6-9 */
+  padding-bottom: 20px; }
 
 .bubbles2 {
   background: #5bcdf3;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #5bcdf3 0%, #3694ff 100%);
+  background: -moz-linear-gradient(top, #e0501b 0%, #d6352e 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5bcdf3), color-stop(100%, #3694ff));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e0501b), color-stop(100%, #d6352e));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #5bcdf3 0%, #3694ff 100%);
+  background: -webkit-linear-gradient(top, #e0501b 0%, #d6352e 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #5bcdf3 0%, #3694ff 100%);
+  background: -o-linear-gradient(top, #e0501b 0%, #d6352e 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #5bcdf3 0%, #3694ff 100%);
+  background: -ms-linear-gradient(top, #e0501b 0%, #d6352e 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, #5bcdf3 0%, #3694ff 100%);
+  background: linear-gradient(to bottom, #e0501b 0%, #d6352e 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bcdf3', endColorstr='#3694ff',GradientType=0 );
   /* IE6-9 */ }
@@ -140,7 +141,7 @@ header {
   margin-bottom: 25px; }
 
 .green {
-  background: #72ECE2; }
+  background: #ff4631; }
 
 .blue {
   background: #339BFF; }
