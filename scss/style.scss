@@ -136,7 +136,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bcdf3', end
     color: #555;
     text-align: center;
     opacity: 0.8;
-    margin-top: -35px;
+    &.tweetLinkPaddingOn{
+        margin-top: -35px;
+    }
+    &.tweetLinkPaddingOff {
+        margin-top: 0px;
+    }
+    & a {
+        color: #284e6f;
+    }
 }
 .social-t {
 	padding-top: 10px;
@@ -181,38 +189,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5bcdf3', end
   transition: 0.25s;
   -webkit-backface-visibility: hidden;
 }
-.btn:hover,
-.btn:focus,
-.btn-group:focus .btn.dropdown-toggle {
-  // opacity: 0.7;
-  background: #dfdfdf;
-  color: #ffffff;
-  outline: none;
-  -webkit-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -o-transition: 0.25s;
-  transition: 0.25s;
-  -webkit-backface-visibility: hidden;
+.active {
+    background: #339BFF;
 }
-.btn:active,
-.btn-group.open .btn.dropdown-toggle,
-.btn.active {
-  background-color: #a1a6a9;
-  color: rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+.hidden {
+    display: none;
 }
-.btn.disabled,
-.btn[disabled] {
-  background-color: #bdc3c7;
-  color: rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
+
 .dl-button {
 	margin-bottom: 30px;
 	text-align: center;
