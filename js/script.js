@@ -24,6 +24,10 @@ $(document).ready(function(){
 		$('p.footnotes')
 				.addClass('tweetLinkPaddingOn')
 				.removeClass('tweetLinkPaddingOff');
+		$('label.hideOnClick')
+				.addClass('hidden');
+		$('br.hideOnClick')
+				.addClass('hidden');
 	});
 
 });
