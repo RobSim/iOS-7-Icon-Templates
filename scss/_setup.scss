@@ -1,0 +1,40 @@
+section,
+header {
+    display: block;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #565656;
+    margin: 0 auto;
+}
+
+img {
+    // Responsive IMGs
+    max-width: 100%;
+    width: auto\9; /*iefix*/
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.img-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.no-top {
+    padding: 0 0 0 0 !important;
+}

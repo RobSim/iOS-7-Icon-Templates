@@ -1,0 +1,111 @@
+@import "social"; //Social Sharing Icons
+
+.logo {
+    padding: 15px 15px 15px 15px;
+    height: 325px;
+    // float: left;
+}
+
+header{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    & .adcontainer {
+        margin-top: -70px;
+        padding-top: 70px;
+        float: left;
+    }
+    & .ad {
+        width: 350px;
+        margin: 0 auto;
+        background: #fff;
+        // opacity: 0.8;
+        height: 100px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        padding: 15px;
+        & img {
+            float: left;
+        }
+        & p {
+            padding-left: 140px;
+            float: left;
+            margin-top: -100px;
+            line-height: 1.1rem;
+        }
+        & a{
+            color: #0B78F4;
+            font-size: 1rem;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        & b{
+        }
+    }
+    & h1 {
+        font-size: 4rem;
+        opacity: 0.8;
+        font-weight: 300;
+        text-align: center;
+        margin: 0;
+        color: #fff;
+    }
+    & h2 {
+        font-size: 1.8rem;
+        opacity: 0.8;
+        font-weight: 300;
+        text-align: center;
+        margin: 8px 0 35px 0;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    & h3 {
+        font-size: 1.8rem;
+        opacity: 0.8;
+        font-weight: 300;
+        text-align: center;
+        margin: 40px 0 0px 0;
+        color: #fff;
+    }
+    & h4 {
+        font-size: 3.0rem;
+        opacity: 0.8;
+        font-weight: 300;
+        text-align: center;
+        margin: 10px 0 10px 0;
+        color: #fff;
+    }
+    & p {
+        opacity: 0.8;
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #fff;
+        line-height: 1.75rem;
+    }
+    & a {
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+.footnotes {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+    opacity: 0.8;
+    &.tweetLinkPaddingOn{
+        margin-top: -35px;
+    }
+    &.tweetLinkPaddingOff {
+        margin-top: 0px;
+    }
+    & a {
+        color: #284e6f;
+    }
+}
