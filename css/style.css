@@ -130,6 +130,40 @@ img {
 .social-f {
   float: right; }
 
+.adcontainer {
+  margin-top: -70px;
+  padding-top: 70px;
+  float: left; }
+
+#fusionads {
+  width: 350px;
+  margin: 0 auto;
+  background: #fff;
+  height: 100px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 15px;
+  position: relative; }
+  #fusionads img {
+    float: left;
+    margin: 0 15px 0 0;
+    border-radius: 3px; }
+  #fusionads .fusion-text {
+    display: block;
+    color: #777;
+    font-size: 1rem; }
+  #fusionads .fusion-poweredby {
+    position: absolute;
+    bottom: 13px;
+    left: 160px;
+    color: #999;
+    font-size: 0.8rem; }
+  #fusionads a {
+    text-decoration: none;
+    border-bottom: none; }
+  #fusionads a:hover {
+    color: #444; }
+
 .logo {
   padding: 15px 15px 15px 15px;
   height: 325px; }
@@ -142,30 +176,6 @@ header {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px 20px 20px 20px; }
-  .container .adcontainer {
-    margin-top: -70px;
-    padding-top: 70px;
-    float: left; }
-  .container .ad {
-    width: 350px;
-    margin: 0 auto;
-    background: #fff;
-    height: 100px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    padding: 15px; }
-    .container .ad img {
-      float: left; }
-    .container .ad p {
-      padding-left: 140px;
-      float: left;
-      margin-top: -100px;
-      line-height: 1.1rem; }
-    .container .ad a {
-      color: #0B78F4;
-      font-size: 1rem;
-      text-decoration: none;
-      border-bottom: none; }
   .container h1 {
     font-size: 4rem;
     opacity: 0.8;

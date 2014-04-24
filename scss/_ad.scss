@@ -1,0 +1,40 @@
+.adcontainer {
+        margin-top: -70px;
+        padding-top: 70px;
+        float: left;
+}
+#fusionads {
+        width: 350px;
+        margin: 0 auto;
+        background: #fff;
+        // opacity: 0.8;
+        height: 100px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        padding: 15px;
+        position: relative;
+        & img {
+            float: left;
+            margin: 0 15px 0 0;
+            border-radius: 3px;
+        }
+        & .fusion-text {
+            display: block;
+            color: #777;
+            font-size: 1rem;
+        }
+        & .fusion-poweredby { //Locks to bottom
+            position: absolute;
+            bottom: 13px;
+            left: 160px;
+            color: #999;
+            font-size: 0.8rem;
+        }
+        & a{
+            text-decoration: none;
+            border-bottom: none;
+        }
+        & a:hover {
+            color: #444;
+        }
+}
